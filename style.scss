@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  color: #000;
+  text-rendering: optimizeLegibility;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --main-btn: #11ffb0;
+  --small-text-color: rgb(85, 85, 85);
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.head-text {
+  margin-top: -5rem;
+}
+
+.head-text p {
+  font-size: 70%;
+  letter-spacing: 0.5px;
+  color: var(--small-text-color);
+}
+
+header {
+  height: 95vh;
+}
+
+header h1 {
+  font-size: 350%;
+  margin-bottom: 1.5px;
+}
+
+header .row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header .button {
+  margin-top: 1rem;
+}
+
+/* BUTTON */
+button.btn {
+  border: 2px solid #000;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #000;
+  font-family: inherit;
+  border-radius: 2px;
+  font-weight: 500;
+  width: 150px;
+}
+button.button-full {
+  background-color: var(--main-btn);
+}
+button.button-open {
+}
+/* BUTTON */
+
+@import "./scss/nav";
+@import "./scss/plan";
