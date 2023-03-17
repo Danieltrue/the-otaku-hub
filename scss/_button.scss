@@ -1,0 +1,25 @@
+/* BUTTON */
+button.btn {
+  border: 2px solid #000;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #000;
+  font-family: inherit;
+  border-radius: 2px;
+  font-weight: 500;
+  width: 150px;
+}
+button.button-full {
+  background-color: var(--main-clr);
+  transition: 0.5s ease-in;
+}
+
+button.button-full:hover {
+  background-color: transparent;
+}
+
+button.button-full.dark {
+  background-color: var(--dark-clr);
+  color: #fff;
+}
+/* BUTTON */
